@@ -1,7 +1,7 @@
 // ==========================================================================
 // MvoDruid
 // ==========================================================================
-
+/*jslint white: true */
 // This is the function that will start your app running.  The default
 // implementation will load any fixtures you have created then instantiate
 // your controllers and awake the elements on your page.
@@ -15,7 +15,7 @@ function main() {
 	// The default code here will load the fixtures you have defined.
 	// Comment out the preload line and add something to refresh from the server
 	// when you are ready to pull data from your server.
-	MvoDruid.server.preload(MvoDruid.FIXTURES);
+	MvoDruid.server.preload(MvoDruid.FIXTURES_rerodoc);
 
 	// refresh() any collections you have created to get their records.
 	// ex: MvoDruid.contacts.refresh() ;
